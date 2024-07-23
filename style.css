@@ -4,6 +4,7 @@
 }
 
 .container {
+    height: 100%;
     background-color: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -12,14 +13,17 @@
 .header {
     background-color: rgb(253, 233, 237);
     display: grid;
+    grid-column: 2 / 3;
 }
 
 .sidebar {
     background-color: rgb(243, 107, 130);
     display: grid;
+    grid-column: 1 / 2;
 }
 
 .main-content {
     background-color: pink;
     display: grid;
+    grid-column: 2 / 3;
 }
