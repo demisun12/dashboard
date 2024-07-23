@@ -81,7 +81,6 @@
 .m-title {
     font-size: 1.25rem;
     font-weight: bold;
-    padding-bottom: 8px;
 }
 
 .projects {
@@ -124,6 +123,7 @@
 .ctitle {
     font-weight: bold;
     font-size: 1em;
+    padding-bottom: 5px;
 }
 
 .cpara {
@@ -137,12 +137,52 @@
     padding-right: 15px;
 }
 
+.announce {
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    gap: 15px;
+}
+
 .announcements {
     background-color: white;
     border-radius: 10px;
+    display: grid;
+    place-items: center;
+    row-gap: 5px;
+    padding: 30px;
+}
+
+.atitle {
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.apara {
+    font-size: 80%;
+    color: grey;
+}
+
+hr {
+    margin-top: 25px;
+}
+
+.trends {
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    gap: 15px;
+    padding-top: 20px;
 }
 
 .trending {
     background-color: white;
     border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    grid-template: repeat(4, 1fr) / 1fr 2fr;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.abt {
+    color: grey;
 }
