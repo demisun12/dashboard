@@ -140,13 +140,13 @@
 
 .ctitle {
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1rem;
     padding-bottom: 5px;
 }
 
 .cpara {
     color: grey;
-    font-size: 80%;
+    font-size: 0.9rem;
 }
 
 .card-icons {
@@ -171,12 +171,13 @@
 }
 
 .atitle {
-    font-size: 90%;
+    font-size: 1rem;
     font-weight: bold;
+    padding-bottom: 5px;
 }
 
 .apara {
-    font-size: 80%;
+    font-size: 0.9rem;
     color: grey;
 }
 
