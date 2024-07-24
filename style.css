@@ -53,6 +53,10 @@
     place-items: center;
 }
 
+#bell {
+    width: 30px;
+}
+
 .pfp > p {
     font-size: 1.3rem;
     font-weight: 700;
@@ -122,7 +126,7 @@ button:hover {
     grid-row: 1 / 3;
     padding: 30px 80px 30px 30px;
     grid-template-columns: 80px 150px;
-    grid-template-rows: 100px repeat(5,50px) 100px repeat(3, 50px);
+    grid-template-rows: 150px repeat(6,50px) 50px repeat(3, 50px);
     place-items: center start;
     column-gap: 20px;
 }
@@ -135,10 +139,18 @@ button:hover {
 
 .sidebar img {
     place-self: center;
+    width: 30px;
+}
+
+#dsh {
+    width: 70px;
 }
 
 #dash {
     font-size: 2rem;
+}
+
+.sett {
 }
 
 .main-content {
@@ -203,9 +215,16 @@ button:hover {
 }
 
 .card-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
     place-self: end;
     padding-bottom: 15px;
     padding-right: 15px;
+}
+
+.card-icons img {
+    width: 30px;
 }
 
 .announce {
