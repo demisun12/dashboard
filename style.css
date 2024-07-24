@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans';
     box-sizing: border-box;
 }
 
@@ -76,8 +76,8 @@
 }
 
 .sidebar p {
-    font-weight: bold;
-    font-size: 1.4rem;
+    font-weight: 700;
+    font-size: 1.7rem;
     color: white;
 }
 
@@ -86,7 +86,7 @@
 }
 
 #dash {
-    font-size: 1.9rem;
+    font-size: 2rem;
 }
 
 .main-content {
@@ -97,8 +97,8 @@
 }
 
 .m-title {
-    font-size: 1.25rem;
-    font-weight: bold;
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .projects {
@@ -139,14 +139,14 @@
 }
 
 .ctitle {
-    font-weight: bold;
-    font-size: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
     padding-bottom: 5px;
 }
 
 .cpara {
     color: grey;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 .card-icons {
@@ -171,13 +171,13 @@
 }
 
 .atitle {
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: 600;
     padding-bottom: 5px;
 }
 
 .apara {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: grey;
 }
 
@@ -200,6 +200,10 @@ hr {
     grid-template: repeat(4, 1fr) / 1fr 2fr;
     align-items: center;
     row-gap: 30px;
+}
+
+.user {
+    font-weight: 500;
 }
 
 .abt {
