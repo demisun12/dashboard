@@ -23,36 +23,47 @@
     grid-column: 1/3;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    place-content: center;
-    padding-left: 50px;
+    place-items: center start;
     padding-right: 50px;
+    padding-left: 70px;
 }
 
 .pfp {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    place-self: center end;
+}
+
+.pfp > p {
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 .intro {
     padding-right: 50px;
+    padding-left: 70px;
     display: grid;
     grid-template-columns: 2fr 1fr ;
     grid-column: 1 / 3;
 }
 
 .icon-name {
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    place-self: center start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    place-self: start;
+    display: flex;
+    align-items: center;
     gap: 10px;
 }
 
-.icon-name img {
-    grid-column: 1 / 2;
-    place-self: center end;
+.pfp-text {
+    font-weight: bold;
 }
 
 
+.pfp-text #name {
+    font-size: 1.6rem;
+}
 
 .buttons {
     display: grid;
@@ -97,8 +108,8 @@
 }
 
 .m-title {
-    font-size: 1.6rem;
-    font-weight: 700;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .projects {
@@ -140,13 +151,13 @@
 
 .ctitle {
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding-bottom: 5px;
 }
 
 .cpara {
     color: grey;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .card-icons {
@@ -171,13 +182,13 @@
 }
 
 .atitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     padding-bottom: 5px;
 }
 
 .apara {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: grey;
 }
 
