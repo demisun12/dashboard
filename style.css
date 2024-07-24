@@ -37,7 +37,7 @@
 
 .search-bar input {
     width: 80%;
-    background-color: #E2E8F0;
+    background-color: #e3ddeb;
     border: none;
     padding: 10px;
     border-radius: 20px;
@@ -93,15 +93,21 @@ button {
     padding: 10px 25px;
     font-weight: 700;
     color: white;
-    background-color: #1992D4;
+    background-color: #a06ee1;
     font-size: 1rem;
     border: none;
     border-radius: 20px;
 }
 
+button:hover {
+    background-color: white;
+    border: 2px solid #a06ee1;
+    color: #a06ee1;
+}
+
 
 .sidebar {
-    background-color: #1992D4;
+    background-color: #a06ee1;
     display: grid;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
@@ -127,7 +133,7 @@ button {
 }
 
 .main-content {
-    background-color: #E2E8F0;
+    background-color: #e3ddeb;
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: 20px 30px 64px 20px;
@@ -164,7 +170,7 @@ button {
 .line  {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    background-color: #F0B429;
+    background-color: #a1f2c7;
     grid-row: 1/3;
 }
 

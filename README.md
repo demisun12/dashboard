@@ -51,3 +51,8 @@ Using knowledge of Grid, build a full dashboard design, leaning on Grid for the 
 ### Step 6: Section feedback
 Before you move on, we would love it if you could submit your feedback on the Intermediate HTML and CSS course.
 
+## Credits
+
+Font used: Open Sans
+Icons from Material Design Icons
+Avatars by Rachmat Budiaji on Vecteezy
