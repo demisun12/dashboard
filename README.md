@@ -55,4 +55,15 @@ Before you move on, we would love it if you could submit your feedback on the In
 
 Font used: Open Sans
 Icons from Material Design Icons
-Avatars by Rachmat Budiaji on Vecteezy
+Avatars:
+    Photo by Brittney Weng on Unsplash https://unsplash.com/photos/white-book-page-with-yellow-flower-petals-P-BPGW56GFo?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+
+    Photo by Jen P on Unsplash https://unsplash.com/photos/white-book-page-with-yellow-flower-petals-P-BPGW56GFo?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+
+    Photo by Angelica Echeverry on Unsplash https://unsplash.com/photos/gold-colored-rings-near-open-book-mI82mfLu538?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+
+    Photo by Olivia Connell on Unsplash https://unsplash.com/photos/gold-colored-rings-near-open-book-mI82mfLu538?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+
+    Photo by WARION Taipei on Unsplash https://unsplash.com/photos/minimalist-photography-of-two-white-ceramic-vases-8QIAj5tHDdc?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+
+  
